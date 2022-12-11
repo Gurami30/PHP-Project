@@ -1,0 +1,58 @@
+.header {
+    display: grid;
+    grid-template-columns: auto max-content;
+    padding: 0;
+}
+
+.rightBTN {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    margin-right: 5px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#content {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-content: center;
+}
+
+.product {
+    border: 3px solid black;
+    border-radius: 1px;
+    height: 150px;
+    width: 170px;
+}
+
+.info {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+br {
+    display: block;
+    margin-top: 10px;
+    content: " ";
+}
+
+#addContent {
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
